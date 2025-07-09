@@ -1,15 +1,15 @@
-# # Fill an array of 5 elements from the user, Sort it in descending and ascending orders then display 
+# Fill an array of 5 elements from the user, Sort it in descending and ascending orders then display 
 
-# def sort_numbers():
-#     x = []
-#     for i in range(5):
-#         z = int(input("Enter a number: "))
-#         x.append(z)
+def sort_numbers():
+    x = []
+    for i in range(5):
+        z = int(input("Enter a number: "))
+        x.append(z)
     
-#     print("Ascending order:", sorted(x))
-#     print("Descending order:", sorted(x, reverse=True))
+    print("Ascending order:", sorted(x))
+    print("Descending order:", sorted(x, reverse=True))
 
-#sort_numbers()
+sort_numbers()
 # ==============================================================
 #  Write a program that generate a multiplication table from 1 to the number passed
 def generate_multi():
@@ -23,6 +23,6 @@ def generate_multi():
         l.append(w)
     return l 
 
-#print(generate_multi())
+print(generate_multi())
 
-# =====================================================================================
+
