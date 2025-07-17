@@ -35,7 +35,7 @@ number=int(input('enter a number  '))
 lists.Multi_Table(number)
 
 print('------------------------------------------------------')
-
+# user = [{"name":"jack","pass":"2345"},{"name":"rose","pass":"3344"}]
 userInput=input("enter ur name:  ")
 Dictionary.check_user_fun(userInput)
 
