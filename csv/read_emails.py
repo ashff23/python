@@ -1,5 +1,4 @@
 
-
 import csv
 
 def validemail(email):
@@ -15,21 +14,21 @@ def validemail(email):
     return False
 
 emails = []
-with open(r"C:\Users\Youss\OneDrive\Desktop\Emails.csv.csv", "r") as upload:
-    reader = csv.reader(upload)
+with open(r"C:\Users\Youss\OneDrive\Desktop\Emails.csv.csv", "r") as z:
+    reader = csv.reader(z)
     header = next(reader)  
 
-    for row in reader:
-        if len(row) > 3:
-            email = row[3]
+    for i in reader:
+        if len(i) > 3:
+            email = i[3]
             emails.append(email)
 
-print("==========================================================================================================")
-validemails = list(filter(validemail, emails))
-print(validemails)
-print("==========================================================================================================")
-domains = list(map(lambda x: x.split('@')[1], validemails))
-print(domains) 
-print("==========================================================================================================")
-unique_domains = set(domains)
-print(unique_domains)
+print("=================================================================================================================================================")
+validemail = list(filter(validemail, emails))
+print(validemail)
+print("=====================================================================================================================================================")
+domain= list(map(lambda x: x.split('@')[1], validemail))
+print(domain) 
+print("=================================================================================================================================================")
+uniquedomain = set(domain)
+print(uniquedomain)
