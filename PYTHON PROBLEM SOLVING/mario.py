@@ -14,7 +14,7 @@ def pyramids_with_list() :
     for i in range(1,num_of_row+1) :
         list.append(" ")
 
-    print('--------------------------------')
+
     for i in range(1,num_of_row+1):
         list.append("*")
         list.remove(' ')
