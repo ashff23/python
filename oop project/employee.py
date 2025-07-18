@@ -12,9 +12,9 @@ class Employee(Person):
          if hours == 8:
             self.mood='happy'
          elif hours > 8:
-            self.mood='tired'
+            self.mood='lazy'
          elif hours < 8 :             
-            self.mood='lazy' 
+            self.mood='tired' 
             
     def drive(self, velocity):
         self.car.run(velocity, self.distanceToWork)
