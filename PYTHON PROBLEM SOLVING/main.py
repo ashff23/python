@@ -36,8 +36,8 @@ lists.Multi_Table(number)
 
 print('------------------------------------------------------')
 # user = [{"name":"jack","pass":"2345"},{"name":"rose","pass":"3344"}]
-userInput=input("enter your name:  ")
-Dictionary.check_user_fun(userInput)
+userinput=input("enter your name:  ")
+Dictionary.check_user_fun(userinput)
 
 print('------------------------------------------------------')
 
