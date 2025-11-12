@@ -1,7 +1,7 @@
 #  OOP Project — Employee Management System
 
-This project is a practical implementation of **Object-Oriented Programming (OOP)** concepts using C++.  
-It was built as part of the **ITI OOP Lab (1)** assignment and focuses on modeling real-world entities such as people, employees, cars, and offices.
+This project is a practical implementation of **Object-Oriented Programming (OOP)** 
+
 
 # Project Overview
 The project simulates a simple office environment, representing how employees, cars, and offices are related.  
